@@ -77,6 +77,83 @@ nav ul li a{
 .btn i{
     margin: 0 10px;
 }
+/* collection start */
+ * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .title {
+            font-size: 35px;
+            text-transform: capitalize;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .collection-details {
+            display: grid;
+            grid-template-columns: repeat(3, 320px);
+            grid-template-rows: repeat(3, 430px);
+            grid-gap: 30px;
+            margin: 0 10% 5%;
+        }
+
+        .collection-about {
+            border-radius: 7px;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+        }
+
+        .photo img {
+            width: 90%;
+            background-size: cover;
+            align-items: center;
+            margin: 10px 15px;
+            object-fit: cover;
+        }
+
+        .collection-about h2 {
+            font-size: 25px;
+            margin-left: 15px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+
+        .collection-about h3 {
+            margin-left: 15px;
+        }
+
+        .collection-about p {
+            font-size: 16px;
+            text-transform: capitalize;
+            margin-top: 5px;
+            margin: 5px 0 0 15px;
+        }
+
+        .icons {
+            font-size: 16px;
+            color: tomato;
+            margin-left: 15px;
+            margin-top: 8px;
+        }
+
+        .icons>span {
+            color: #333;
+        }
+
+        .button {
+            text-align: right;
+            margin-right: 14%;
+        }
+
+        .button a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 20px;
+            color: tomato;
+        }
+        /* collection end  */
 /* logo start */
 .logo {
     width: 80%;
