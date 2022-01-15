@@ -1,0 +1,95 @@
+/* influencer style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@500&family=Work+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: whitesmoke);
+}
+.influencer-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 110px;
+}
+.influencer-header h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-content{
+    width: 48%;
+}
+.text-content{
+    margin-left: 110px;
+}
+.text-content h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 900;
+    line-height: 60px;
+}
+.text-content p{
+    margin-top: 15px;
+}
+.photo-details{
+    width: 45%;
+}
+.photo-details img{
+    width: 80%;
+    transition: 1s;
+}
+.photo-details img:hover{
+    transform: scale(1.1);
+}
+.btn{
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: rgb(231, 10, 95);
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: inline-block;
+
+}
+.btn i{
+    margin: 0 10px;
+}
+/* logo  */
+.logo {
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-top: 1px solid #e5e2e2;
+    border-bottom: 1px solid #e5e2e2;
+    margin: 7% 0;
+}
+
+.logo img {
+    padding:20px;
+}
